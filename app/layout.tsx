@@ -3,6 +3,7 @@ import "@/app/globals.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
 import { GoogleTagManager } from "@next/third-parties/google"
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
         <GoogleTagManager gtmId="G-KG0CT6MFPX" />
+        <Analytics />
       </body>
     </html>
   )
