@@ -558,7 +558,7 @@ export default function LearnMorePage() {
                       <h3 className="text-xl font-bold">Nomination Phase</h3>
                       <p className="text-muted-foreground">
                         Fans submit their nominations for each category through our secure, system-validated form. The
-                        nomination period for our inaugural season runs from January 15 to February 28, 2025.
+                        nomination period for our inaugural season runs from April 10 to April 22, 2025.
                       </p>
                       <div className="flex items-center gap-2 text-sm text-primary mt-2">
                         <Lock className="h-4 w-4" />
@@ -575,7 +575,7 @@ export default function LearnMorePage() {
                       <h3 className="text-xl font-bold">Finalist Selection</h3>
                       <p className="text-muted-foreground">
                         The top 5 most-nominated titles in each category become the official finalists. These are
-                        announced publicly with nomination counts for complete transparency on March 15, 2025.
+                        announced publicly with nomination counts for complete transparency on April 26, 2025.
                       </p>
                       <div className="flex items-center gap-2 text-sm text-primary mt-2">
                         <Info className="h-4 w-4" />
@@ -591,8 +591,8 @@ export default function LearnMorePage() {
                     <div className="pt-3 space-y-2">
                       <h3 className="text-xl font-bold">Final Voting</h3>
                       <p className="text-muted-foreground">
-                        Fans vote for their favorite among the finalists in each category from March 20 to April 20,
-                        2025. One vote per verified account, with email and CAPTCHA verification to prevent bot voting.
+                        Fans vote for their favorite among the finalists in each category from April 29 to May 10, 2025.
+                        One vote per verified account, with email and CAPTCHA verification to prevent bot voting.
                       </p>
                       <div className="flex items-center gap-2 text-sm text-primary mt-2">
                         <Shield className="h-4 w-4" />
@@ -609,7 +609,7 @@ export default function LearnMorePage() {
                       <h3 className="text-xl font-bold">Results Announcement</h3>
                       <p className="text-muted-foreground">
                         Winners of our inaugural season will be announced during our live-streamed awards ceremony on
-                        May 15, 2025. Full voting statistics will be published afterward for transparency.
+                        May 18, 2025. Full voting statistics will be published afterward for transparency.
                       </p>
                       <div className="flex items-center gap-2 text-sm text-primary mt-2">
                         <Trophy className="h-4 w-4" />
