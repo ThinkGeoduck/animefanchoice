@@ -61,7 +61,7 @@ If you're a copyright holder or legal representative and believe anything on thi
 
                 <h2>
                     <b><li>Contact Us</li></b>
-                    <p>contact@Anime Fan Choice.com</p>
+                    <p>contact@animefanchoice.com</p>
                 </h2>
               </section>    
 

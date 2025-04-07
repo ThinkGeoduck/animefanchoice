@@ -156,7 +156,7 @@ export default function TermsOfServicePage() {
                 If you have any questions or concerns about these Terms, feel free to contact us:
               </p>
               <ul>
-                <li>Email: contact@Anime Fan Choice.com</li>
+                <li>Email: contact@animefanchoice.com</li>
               </ul>
             </section>
 

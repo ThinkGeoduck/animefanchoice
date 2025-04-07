@@ -84,7 +84,7 @@ export default function PrivacyPolicyPage() {
                 <h2><b>Contact Us</b></h2>
                 <p>If you have any questions about this Privacy Policy, please contact us:</p>
                 <ul>
-                  <li>By email: contact@Anime Fan Choice.com</li>
+                  <li>By email: contact@animefanchoice.com</li>
                 </ul>
               </section>
 
