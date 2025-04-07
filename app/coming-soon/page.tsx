@@ -258,7 +258,7 @@ export default function ComingSoonPage() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/privacy-policy"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Privacy Policy
@@ -266,7 +266,7 @@ export default function ComingSoonPage() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/terms-of-service"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Terms of Service

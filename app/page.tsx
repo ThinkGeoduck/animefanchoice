@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import Image from "next/image"
+import Head from "next/head"
 import { Button } from "@/components/ui/button"
 import {   Award,
   Calendar,
@@ -29,6 +30,10 @@ import { useRouter } from 'next/router'
 export default function LandingPage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <Head>
+        <title>Anime Fan Choice</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2 group">
@@ -416,7 +421,7 @@ export default function LandingPage() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="#"
+                  href="#faq"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   FAQ
@@ -424,15 +429,15 @@ export default function LandingPage() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/disclaimer"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
-                  Rules
+                  Disclaimer
                 </Link>
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/privacy-policy"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Privacy Policy
@@ -440,7 +445,7 @@ export default function LandingPage() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/terms-of-service"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Terms of Service
@@ -477,7 +482,7 @@ export default function LandingPage() {
               </li>
               <li>
                 <Link
-                  href="https://www.reddit.com/r/animefanchoiceawards/"
+                  href="https://www.reddit.com/r/Anime Fan Choiceawards/"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Reddit
@@ -564,27 +569,27 @@ const categoriesW= [
 
 const timelineEvents = [
   {
-    date: "TBA",
+    date: "10th April 2025",
     title: "Nominations Open",
     description: "Fans can submit their nominations for each category.",
   },
   {
-    date: "TBA",
+    date: "22nd April 2025",
     title: "Nominations Close",
     description: "Final nominees are tallied and announced.",
   },
   {
-    date: "TBA",
+    date: "29th April 2025",
     title: "Voting Begins",
     description: "Fans can vote for their favorites among the nominees.",
   },
   {
-    date: "TBA",
+    date: "10th May 2025",
     title: "Voting Ends",
     description: "Final votes are counted and verified.",
   },
   {
-    date: "TBA",
+    date: "18th May 2025",
     title: "Results Announced",
     description: "Winners are announced on our Website",
   },

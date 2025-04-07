@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import Head from "next/head"
 import { Button } from "@/components/ui/button"
 import {
   Award,
@@ -29,6 +30,10 @@ import { Badge } from "@/components/ui/badge"
 export default function LearnMorePage() {
   return (
     <div className="flex min-h-screen flex-col">
+      <Head>
+        <title>Anime Fan Choice</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group">
@@ -73,7 +78,9 @@ export default function LearnMorePage() {
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
                 <Trophy className="h-4 w-4" />
+               <Link href='/coming-soon'>
                 <span>Inaugural Season</span>
+                </Link>
               </div>
               <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                 The First-Ever Anime Fan Choice Awards
@@ -376,9 +383,11 @@ export default function LearnMorePage() {
                     </div>
                   </div>
                 </div>
-
+ 
                 <Button className="group mt-4">
+                  <Link href="/coming-soon">
                   Access Secure Nomination Form
+                  </Link>
                   <ChevronRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
                 </Button>
               </div>
@@ -622,19 +631,19 @@ export default function LearnMorePage() {
                     <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-4">
                       <div className="p-3 border rounded-lg bg-muted/30">
                         <p className="text-sm text-muted-foreground">Nominations Open</p>
-                        <p className="font-medium">TBA</p>
+                        <p className="font-medium">10th April 2025</p>
                       </div>
                       <div className="p-3 border rounded-lg bg-muted/30">
                         <p className="text-sm text-muted-foreground">Finalists Announced</p>
-                        <p className="font-medium">TBA</p>
+                        <p className="font-medium">20th April</p>
                       </div>
                       <div className="p-3 border rounded-lg bg-muted/30">
                         <p className="text-sm text-muted-foreground">Voting Period</p>
-                        <p className="font-medium">TBA</p>
+                        <p className="font-medium">29th April-10th May</p>
                       </div>
                       <div className="p-3 border rounded-lg bg-muted/30">
-                        <p className="text-sm text-muted-foreground">Awards Ceremony</p>
-                        <p className="font-medium">TBA</p>
+                        <p className="text-sm text-muted-foreground">Results Announced</p>
+                        <p className="font-medium">18th May 2025</p>
                       </div>
                     </div>
                   </div>
@@ -779,7 +788,9 @@ export default function LearnMorePage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button size="lg" variant="secondary" className="w-full sm:w-auto group relative overflow-hidden">
+                <Link href="/coming-soon">
                 <span className="relative z-10">Nominate Your Favorites</span>
+                </Link>
                 <span className="absolute inset-0 bg-secondary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
               </Button>
               <Button
@@ -863,7 +874,7 @@ export default function LearnMorePage() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="/privacy-policy"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Privacy Policy
@@ -908,7 +919,7 @@ export default function LearnMorePage() {
               </li>
               <li>
                 <Link
-                  href="https://www.reddit.com/r/animefanchoiceawards/"
+                  href="https://www.reddit.com/r/Anime Fan Choiceawards/"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Reddit
