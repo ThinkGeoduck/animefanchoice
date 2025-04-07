@@ -133,7 +133,7 @@ If you're a copyright holder or legal representative and believe anything on thi
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300">
+                <Link href="https://www.instagram.com/animefanchoice/?utm_source=ig_web_button_share_sheet" className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300">
                   Instagram
                 </Link>
               </li>

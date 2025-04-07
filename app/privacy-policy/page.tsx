@@ -178,7 +178,7 @@ export default function PrivacyPolicyPage() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/animefanchoice/?utm_source=ig_web_button_share_sheet"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Instagram

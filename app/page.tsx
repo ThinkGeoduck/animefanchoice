@@ -114,12 +114,12 @@ export default function LandingPage() {
                 The awards show that truly represents what anime fans love, by the fans, for the fans.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/coming-soon">
                 <Button size="lg" className="w-full sm:w-auto group relative overflow-hidden">
-                  <Link href="/coming-soon">
                   <span className="relative z-10">Vote Now</span>
-                  </Link>
                   <span className="absolute inset-0 bg-primary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
                 </Button>
+                </Link>
                 <Link href="/learn-more">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto">
                   Learn More
@@ -326,12 +326,12 @@ export default function LandingPage() {
               Join thousands of anime fans and vote for your favorites in the Anime Fan Choice Awards.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link href="/coming-soon">
               <Button size="lg" variant="secondary" className="w-full sm:w-auto group relative overflow-hidden">
-                <Link href="/coming-soon">
                 <span className="relative z-10">Vote Now</span>
-                </Link>
                 <span className="absolute inset-0 bg-secondary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
               </Button>
+              </Link>
               <Button
                 size="lg"
                 variant="outline"
@@ -474,7 +474,7 @@ export default function LandingPage() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/animefanchoice"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
                   Instagram
@@ -493,7 +493,7 @@ export default function LandingPage() {
         </div>
         <div className="container mt-8 pt-8 border-t">
           <p className="text-center text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Hypern Labs. All rights reserved.
+            &copy; {new Date().getFullYear()} Anime Fan Choice. All rights reserved.
           </p>
         </div>
       </footer>
