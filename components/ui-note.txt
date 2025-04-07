@@ -1,0 +1,15 @@
+Note: The shadcn/ui components are already available in the project by default at @/components/ui/. 
+
+These include:
+- button.tsx
+- card.tsx
+- input.tsx
+- dropdown-menu.tsx
+- etc.
+
+You can import them directly like:
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+
+There's no need to create these files manually as they're part of the default project setup.
+
