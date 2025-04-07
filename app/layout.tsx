@@ -21,9 +21,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
+          <GoogleTagManager gtmId="G-KG0CT6MFPX" />
+          <Analytics />
         </ThemeProvider>
-        <GoogleTagManager gtmId="G-KG0CT6MFPX" />
-        <Analytics />
       </body>
     </html>
   )
