@@ -69,8 +69,8 @@ export default function ComingSoonPage() {
               Learn More
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </Link>
-            <Link href="/coming-soon" className="text-sm font-medium text-primary relative group">
-              Coming Soon
+            <Link href="https://tally.so/r/wvz6M8" className="text-sm font-medium text-primary relative group">
+              Nominate Now!
               <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-primary"></span>
             </Link>
           </nav>
@@ -115,7 +115,7 @@ export default function ComingSoonPage() {
               </h1>
 
               <p className="text-xl text-muted-foreground md:text-2xl max-w-2xl mx-auto">
-                The first truly fan-driven anime awards show is coming soon. Get ready to make your voice heard!
+                The first truly fan-driven anime awards show is Nominate Now!. Get ready to make your voice heard!
               </p>
 
               {/* Countdown Timer */}
@@ -237,10 +237,10 @@ export default function ComingSoonPage() {
               </li>
               <li>
                 <Link
-                  href="/coming-soon"
+                  href="https://tally.so/r/wvz6M8"
                   className="text-sm text-muted-foreground hover:text-foreground hover:translate-x-1 inline-block transition-transform duration-300"
                 >
-                  Coming Soon
+                  Nominate Now!
                 </Link>
               </li>
             </ul>

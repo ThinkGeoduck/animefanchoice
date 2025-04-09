@@ -63,10 +63,12 @@ export default function LandingPage() {
             </Link>
           </nav>
           <div>
+            <Link href="https://tally.so/r/wvz6M8">
             <Button className="group">
-              Coming Soon
+              Nominate Now!
               <Sparkles className="ml-2 h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Button>
+            </Link>
           </div>
         </div>
       </header>
@@ -114,7 +116,7 @@ export default function LandingPage() {
                 The awards show that truly represents what anime fans love, by the fans, for the fans.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/coming-soon">
+              <Link href="https://tally.so/r/wvz6M8">
                 <Button size="lg" className="w-full sm:w-auto group relative overflow-hidden">
                   <span className="relative z-10">Vote Now</span>
                   <span className="absolute inset-0 bg-primary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
@@ -326,7 +328,7 @@ export default function LandingPage() {
               Join thousands of anime fans and vote for your favorites in the Anime Fan Choice Awards.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/coming-soon">
+            <Link href="https://tally.so/r/wvz6M8">
               <Button size="lg" variant="secondary" className="w-full sm:w-auto group relative overflow-hidden">
                 <span className="relative z-10">Vote Now</span>
                 <span className="absolute inset-0 bg-secondary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
@@ -570,7 +572,7 @@ const categoriesW= [
 const timelineEvents = [
   {
     date: "10th April 2025",
-    title: "Nominations Open",
+    title: "Nominate Now",
     description: "Fans can submit their nominations for each category.",
   },
   {

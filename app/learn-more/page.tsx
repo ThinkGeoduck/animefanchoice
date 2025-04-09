@@ -78,7 +78,7 @@ export default function LearnMorePage() {
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
                 <Trophy className="h-4 w-4" />
-               <Link href='/coming-soon'>
+               <Link href='https://tally.so/r/wvz6M8'>
                 <span>Inaugural Season</span>
                 </Link>
               </div>
@@ -89,10 +89,12 @@ export default function LearnMorePage() {
                 Be part of history as we launch the most transparent, fan-driven anime awards in the world.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4 pt-4">
+                <Link href="https://tally.so/r/wvz6M8">
                 <Button size="lg" className="group relative overflow-hidden">
                   <span className="relative z-10">Join the Inaugural Season</span>
                   <span className="absolute inset-0 bg-primary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
                 </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -385,7 +387,7 @@ export default function LearnMorePage() {
                 </div>
  
                 <Button className="group mt-4">
-                  <Link href="/coming-soon">
+                  <Link href="https://tally.so/r/wvz6M8">
                   Access Secure Nomination Form
                   </Link>
                   <ChevronRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300" />
@@ -630,7 +632,7 @@ export default function LearnMorePage() {
                     </p>
                     <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-4">
                       <div className="p-3 border rounded-lg bg-muted/30">
-                        <p className="text-sm text-muted-foreground">Nominations Open</p>
+                        <p className="text-sm text-muted-foreground">Nominate Now</p>
                         <p className="font-medium">10th April 2025</p>
                       </div>
                       <div className="p-3 border rounded-lg bg-muted/30">
@@ -788,7 +790,7 @@ export default function LearnMorePage() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button size="lg" variant="secondary" className="w-full sm:w-auto group relative overflow-hidden">
-                <Link href="/coming-soon">
+                <Link href="https://tally.so/r/wvz6M8">
                 <span className="relative z-10">Nominate Your Favorites</span>
                 </Link>
                 <span className="absolute inset-0 bg-secondary-foreground/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></span>
