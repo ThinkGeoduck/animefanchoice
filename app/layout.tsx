@@ -20,8 +20,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+        <GoogleTagManager gtmId="G-KG0CT6MFPX" />
           {children}
-          <GoogleTagManager gtmId="G-KG0CT6MFPX" />
           <Analytics />
         </ThemeProvider>
       </body>

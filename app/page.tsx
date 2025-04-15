@@ -62,7 +62,7 @@ export default function LandingPage() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </Link>
           </nav>
-          <div>
+            <div>
             <Link href="https://tally.so/r/wvz6M8">
             <Button className="group">
               Nominate Now!
